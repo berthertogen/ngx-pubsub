@@ -1,11 +1,11 @@
 {
-  "name": "@fikani/ngx-pubsub",
-  "version": "0.1.6",
+  "name": "ngx-pubsub",
+  "version": "0.6.0",
   "scripts": {
     "build": "gulp build",
     "build:watch": "gulp",
     "docs": "npm run docs:build",
-    "docs:build": "compodoc -p tsconfig.json -n @fikani/ngx-pubsub -d docs --hideGenerator",
+    "docs:build": "compodoc -p tsconfig.json -n ngx-pubsub -d docs --hideGenerator",
     "docs:serve": "npm run docs:build -- -s",
     "docs:watch": "npm run docs:build -- -s -w",
     "lint": "tslint --project tsconfig.json src/**/*.ts",
@@ -16,7 +16,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fikani/ngx-pubsub.git"
+    "url": "https://github.com/berthertogen/ngx-pubsub.git"
   },
   "author": {
     "name": "Afif Fikani",
@@ -27,7 +27,7 @@
   ],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fikani/ngx-pubsub.git/issues"
+    "url": "https://github.com/berthertogen/ngx-pubsub.git/issues"
   },
   "devDependencies": {
     "@angular/common": "^6.0.2",
