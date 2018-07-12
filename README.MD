@@ -1,4 +1,4 @@
-# @fikani/ngx-pubsub
+# ngx-pubsub-angular
 
 ## About
 
@@ -9,7 +9,7 @@ This library helps people to use a simple Publisher/Subscriber module taking adv
 To install this library, run:
 
 ```bash
-$ npm install @fikani/ngx-pubsub --save
+$ npm install ngx-pubsub-angular --save
 ```
 
 ## Usage
@@ -23,7 +23,7 @@ import { NgModule } from "@angular/core";
 import { AppComponent } from "./app.component";
 
 // Import the module
-import { PubSubModule } from "@fikani/ngx-pubsub";
+import { PubSubModule } from "ngx-pubsub-angular";
 
 @NgModule({
   declarations: [AppComponent],
@@ -44,7 +44,7 @@ It works with: class members (including arrow functions), `set` property acessor
 
 ```typescript
 import { Component, OnInit } from '@angular/core';
-import { subscribe } from '@fikani/ngx-pubsub';
+import { subscribe } from 'ngx-pubsub-angular';
 
 @Component({...})
 export class MyComponent {
@@ -73,7 +73,7 @@ You also have to emit the notification to the observers. To do so, use the `Subs
 ```typescript
 import { Observable } from "rxjs/Observable";
 import "rxjs/add/observable/interval";
-import { SubscriptionService } from "@fikani/ngx-pubsub";
+import { SubscriptionService } from "ngx-pubsub-angular";
 
 @Injectable()
 export class PublisherService {

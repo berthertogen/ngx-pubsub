@@ -1,9 +1,9 @@
 {
-  "name": "@fikani/ngx-pubsub",
+  "name": "ngx-pubsub-angular",
   "version": "0.1.6",
   "repository": {
     "type": "git",
-    "url": "https://github.com/fikani/ngx-pubsub"
+    "url": "https://github.com/berthertogen/ngx-pubsub"
   },
   "author": {
     "name": "Afif Fikani",
@@ -12,7 +12,7 @@
   "keywords": ["angular"],
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/fikani/ngx-pubsub/issues"
+    "url": "https://github.com/berthertogen/ngx-pubsub/issues"
   },
   "main": "fikani-ngx-pubsub.umd.js",
   "module": "fikani-ngx-pubsub.js",
