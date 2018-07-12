@@ -14,10 +14,10 @@
   "bugs": {
     "url": "https://github.com/berthertogen/ngx-pubsub/issues"
   },
-  "main": "fikani-ngx-pubsub.umd.js",
-  "module": "fikani-ngx-pubsub.js",
-  "jsnext:main": "fikani-ngx-pubsub.js",
-  "typings": "fikani-ngx-pubsub.d.ts",
+  "main": "ngx-pubsub-angular.umd.js",
+  "module": "ngx-pubsub-angular.js",
+  "jsnext:main": "ngx-pubsub-angular.js",
+  "typings": "ngx-pubsub-angular.d.ts",
   "peerDependencies": {
     "@angular/core": "^4.0.0",
     "rxjs": "^5.1.0",

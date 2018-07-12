@@ -132,7 +132,7 @@ gulp.task('rollup:umd', function () {
         // The name to use for the module for UMD/IIFE bundles
         // (required for bundles with exports)
         // See "name" in https://rollupjs.org/#core-functionality
-        name: 'fikani-ngx-pubsub',
+        name: 'ngx-pubsub-angular',
         
         // See "globals" in https://rollupjs.org/#core-functionality
         globals: {
@@ -144,7 +144,7 @@ gulp.task('rollup:umd', function () {
       }
 
     }))
-    .pipe(rename('fikani-ngx-pubsub.umd.js'))
+    .pipe(rename('ngx-pubsub-angular.umd.js'))
     .pipe(gulp.dest(distFolder));
 });
 

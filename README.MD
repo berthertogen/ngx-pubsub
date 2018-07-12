@@ -71,8 +71,7 @@ Don't worry about unsubscribing the observables on components, it is done under 
 You also have to emit the notification to the observers. To do so, use the `SubscriptionService`:
 
 ```typescript
-import { Observable } from "rxjs/Observable";
-import "rxjs/add/observable/interval";
+import { interval } from "rxjs";
 import { SubscriptionService } from "ngx-pubsub-angular";
 
 @Injectable()
@@ -82,7 +81,7 @@ export class PublisherService {
   });
   constructor(private sub: SubscriptionService) {
     //example
-    Observable.interval(1000).subscribe(n => {
+    interval(1000).subscribe(n => {
       this.sub.emit("test", n);
     });
   }

@@ -21,8 +21,8 @@
     "annotateForClosureCompiler": true,
     "strictMetadataEmit": true,
     "skipTemplateCodegen": true,
-    "flatModuleOutFile": "fikani-ngx-pubsub.js",
-    "flatModuleId": "fikani-ngx-pubsub"
+    "flatModuleOutFile": "ngx-pubsub-angular.js",
+    "flatModuleId": "ngx-pubsub-angular"
   },
   "files": [
     "./index.ts"

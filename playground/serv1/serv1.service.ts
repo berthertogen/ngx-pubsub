@@ -1,7 +1,6 @@
 import { Injectable } from "@angular/core";
 import { SubscriptionService } from "../../dist";
 import { interval } from "rxjs";
-import "rxjs/add/observable/interval";
 
 @Injectable()
 export class Serv1Service {
